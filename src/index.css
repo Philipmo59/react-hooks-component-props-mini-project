@@ -14,11 +14,12 @@ body {
   color: var(--text);
 }
 
-h1,
+h1 ,
 h3 {
   font-size: 2em;
   font-family: Montserrat, sans-serif;
   font-weight: 900;
+  color: white;
 }
 
 .App {

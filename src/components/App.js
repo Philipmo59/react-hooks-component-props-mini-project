@@ -1,7 +1,6 @@
 import React from "react";
 import blogData from "../data/blog";
 import About from "./About";
-import Article from "./Article";
 import ArticleList from "./ArticleList";
 import Header from "./Header";
 
@@ -11,7 +10,6 @@ function App() {
     <div>
       <Header name={blogData.name}/>
       <About image={blogData.image}/>
-      <Article />
       <ArticleList posts={blogData.posts}/>
   
     </div>

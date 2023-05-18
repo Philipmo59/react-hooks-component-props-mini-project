@@ -9,6 +9,7 @@ function ArticleList({posts}){
             date={post.date}
             preview={post.preview}
             key={post.id}
+            minutes={post.minutes}
         />
     )
     return(
